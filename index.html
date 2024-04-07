@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first html document</title>
+    <style>
+        a:link {
+          color: green; 
+          background-color: transparent; 
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
 </head>
 <!--This is all the content contained on the webpage below, all of this for me learning html then css , followed by javascript!-->
 <body style="background-color: aliceblue;">
@@ -13,11 +38,11 @@
         My Third Heading
     </h3>
     <h4>Fourth heading! </h4>
-
+    <a href="#H2">Link to down the page!</a>
     <br>
     <p style = "color:red;">My first paragraph. <br> I am now testing a line break in a paragraph</p>
 
-    <a style = "color: rgb(200, 200, 150);"https://www.google.com">This is a link to google</a>
+    <a style = "color: rgb(200, 200, 150);" href = "https://www.google.com">This is a link to google</a>
     <hr>
 
     <img src="images/testimage.jpg" alt="my test image - poppet" width="500" height="500">
@@ -45,7 +70,10 @@
         UK
     </address>
     <!--Adding another comment above my paragraph about citations-->
-    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <p id="H2"><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
     <!-- Hiding my code here <bdo dir="rtl"> This will be written from right to left.</bdo>   -->
+
+    <button onclick="document.location='index.html'">HTML Tutorial</button>
+    <p style="background-image: url(images/testimage.jpg);">test paragraph with backgroud as poppet</p>
 </body>
 </html>
