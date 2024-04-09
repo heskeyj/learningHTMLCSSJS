@@ -24,7 +24,8 @@ h1:hover{
 
 #poppet{
   width:25%;
-  opacity: 15%;
+  opacity: 75%;
+  z-index: -1;
 }
 
 .container{
@@ -37,4 +38,19 @@ h1:hover{
   position: absolute;
   top: 80px;
   left: 0;
+  z-index: -2;
 }
+
+.flx{
+  font-size:2rem;
+  padding: 1rem;
+
+  }
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  width: 66.66%
+}
+
+
