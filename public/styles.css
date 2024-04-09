@@ -12,10 +12,29 @@ body{
 h1{
   font-size: 2rem;
   text-indent: 1rem;
-  display: inline;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 h1:hover{
   text-decoration-line: underline;
 }
 
+
+#poppet{
+  width:25%;
+  opacity: 15%;
+}
+
+.container{
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.textforpoppet{
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
