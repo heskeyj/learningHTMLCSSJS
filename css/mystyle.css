@@ -8,3 +8,20 @@ h1 {
   margin: 0;
 }
 
+h2{
+  text-align: center;
+}
+
+
+#firstID{
+  text-align: center;
+  font-weight: 600;
+  font-size: larger;
+}
+
+
+.firstClass{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
